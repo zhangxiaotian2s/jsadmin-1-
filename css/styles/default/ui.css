@@ -195,11 +195,18 @@ a:hover, .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited
 	color:#d7d7d7;
 }
 #header #sitename{ height:98px;}
-#header #sitename a.logo {
+#header #sitename .logo{
 	display:block; width:210px; height:80px;
 	color:#fff;
 	background:url(logo.png) no-repeat center left;
 	text-shadow:1px 1px 0 #000;
+
+}
+#header #sitename .logo  a{
+     font-size: 40px;
+     line-height: 80px;
+      padding-left: 80px;
+       color:#fff;
 }
 
 #header #top-menu a:hover, #header #sitename a.logo:hover {
